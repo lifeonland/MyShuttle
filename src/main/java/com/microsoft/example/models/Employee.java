@@ -43,14 +43,14 @@ public class Employee
 
     public int getTotalFare(List<Fare> fares, int flag) {
     int total = 0;
-   /*
+   
     if (flag == 0)
     {
         for (Fare f : fares) {
       total += f.getFare();
         }     
     } else
-    */
+    
        for (Fare f : fares) {
       total += f.getDriverFee();
     }
